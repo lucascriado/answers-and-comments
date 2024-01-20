@@ -8,8 +8,17 @@
     --gray-800: #202024;
     --gray-900: #121214;
   
+    --green-300: #00b37e;   
     --green-500: #00875f;
+
+    --red-500: #f75a68;
 }
+
+:focus {
+    outline: transparent;
+    box-shadow: 0 0 0 2px var(--green-500);
+}
+
 
 * {
     padding: 0;
@@ -28,3 +37,4 @@ body, input, textarea, button {
     font-weight: 400;
     font-size: 1rem;
 }
+
