@@ -1,0 +1,95 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "author": {
+        "avatarUrl": "https://github.com/diego3g.png",
+        "name": "Diego Fernandes",
+        "role": "CTO @Rocketseat"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "content": "Fala galera 👋"
+        },
+        {
+          "type": "paragraph",
+          "content": "Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀"
+        },
+        {
+          "type": "link",
+          "content": "jane.design/doctorcare"
+        }
+      ],
+      "publishedAt": "2024-01-01T20:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "author": {
+        "avatarUrl": "https://github.com/maykbrito.png",
+        "name": "Mayk Brito",
+        "role": "Educator @Rocketseat"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "content": "Fala galera 👋"
+        },
+        {
+          "type": "paragraph",
+          "content": "Subi mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀"
+        },
+        {
+          "type": "link",
+          "content": "jane.design/doctorcare"
+        }
+      ],
+      "publishedAt": "2024-01-07T20:00:00.000Z"
+    },
+    {
+      "id": "f4cd",
+      "author": {
+        "avatarUrl": "https://github.com/diego3g.png",
+        "name": "Lucas",
+        "role": "CTO @Rocketseat"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "content": "jshdkasdjakdjakd"
+        }
+      ],
+      "publishedAt": "2024-01-21T02:18:06.398Z"
+    },
+    {
+      "id": "d9f5",
+      "author": {
+        "avatarUrl": "https://github.com/diego3g.png",
+        "name": "blabla",
+        "role": "CTO @Rocketseat"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "content": "deus"
+        }
+      ],
+      "publishedAt": "2024-01-21T02:31:48.375Z"
+    },
+    {
+      "id": "747c",
+      "author": {
+        "avatarUrl": "https://github.com/diego3g.png",
+        "name": "lucas",
+        "role": "CTO @Rocketseat"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "content": "ta dando certo?"
+        }
+      ],
+      "publishedAt": "2024-01-21T02:33:18.667Z"
+    }
+  ]
+}
