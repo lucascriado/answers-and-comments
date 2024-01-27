@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import styles from './Create.module.css';
 
 export function CreatePost() {
   const [author, setAuthor] = useState('');
@@ -36,7 +37,7 @@ export function CreatePost() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className={styles.create}>
       <label>
         Author:
         <input type="text" value={author} onChange={e => setAuthor(e.target.value)} />

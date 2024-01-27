@@ -29,7 +29,7 @@ export function App() {
               <Route path="/create">
                 <CreatePost />
               </Route>
-              <Route path="/home">
+              <Route path="/">
                 {posts.map(post => {
                   return (
                     <Post 
