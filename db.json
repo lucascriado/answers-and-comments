@@ -21,225 +21,143 @@
           "content": "jane.design/doctorcare"
         }
       ],
-      "publishedAt": "2024-01-01T20:00:00.000Z"
+      "publishedAt": "2024-01-01T20:00:00.000Z",
+      "comments": [
+        {
+          "id": 1,
+          "postId": "1",
+          "author": {
+            "name": "lucascriado",
+            "github": "https://github.com/lucascriado.png"
+          },
+          "content": "kkkkkkkkk",
+          "publishedAt": "2024-01-29T02:53:06.276Z"
+        }
+      ]
     },
     {
-      "id": "2",
+      "id": "dfdb",
       "author": {
-        "avatarUrl": "https://github.com/maykbrito.png",
-        "name": "Mayk Brito",
-        "role": "Educator @Rocketseat"
+        "avatarUrl": "https://github.com/lucascriado.png",
+        "name": "LUCAS",
+        "role": "developer"
       },
       "content": [
         {
           "type": "paragraph",
-          "content": "Fala galera 👋"
-        },
-        {
-          "type": "paragraph",
-          "content": "Subi mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀"
-        },
-        {
-          "type": "link",
-          "content": "jane.design/doctorcare"
+          "content": "sei la"
         }
       ],
-      "publishedAt": "2024-01-07T20:00:00.000Z"
+      "publishedAt": "2024-01-29T02:33:57.787Z",
+      "comments": []
     },
     {
-      "id": "f4cd",
+      "id": "7301",
       "author": {
-        "avatarUrl": "https://github.com/diego3g.png",
-        "name": "Lucas",
-        "role": "CTO @Rocketseat"
-      },
-      "content": [
-        {
-          "type": "paragraph",
-          "content": "jshdkasdjakdjakd"
-        }
-      ],
-      "publishedAt": "2024-01-21T02:18:06.398Z"
-    },
-    {
-      "id": "d9f5",
-      "author": {
-        "avatarUrl": "https://github.com/diego3g.png",
-        "name": "blabla",
-        "role": "CTO @Rocketseat"
-      },
-      "content": [
-        {
-          "type": "paragraph",
-          "content": "deus"
-        }
-      ],
-      "publishedAt": "2024-01-21T02:31:48.375Z"
-    },
-    {
-      "id": "747c",
-      "author": {
-        "avatarUrl": "https://github.com/diego3g.png",
+        "avatarUrl": "https://github.com/lucascriado.png",
         "name": "lucas",
-        "role": "CTO @Rocketseat"
+        "role": "dev"
       },
       "content": [
         {
           "type": "paragraph",
-          "content": "ta dando certo?"
+          "content": "dev"
         }
       ],
-      "publishedAt": "2024-01-21T02:33:18.667Z"
+      "publishedAt": "2024-01-29T02:53:31.324Z",
+      "comments": [
+        {
+          "id": 1,
+          "postId": "7301",
+          "author": {
+            "name": "sss",
+            "github": "https://github.com/sss.png"
+          },
+          "content": "sss",
+          "publishedAt": "2024-01-29T02:53:40.681Z"
+        }
+      ]
     },
     {
-      "id": "9e4f",
+      "id": "069f",
       "author": {
-        "avatarUrl": "https://github.com/diego3g.png",
-        "name": "LUCASCRIADO",
-        "role": "CTO @Rocketseat"
+        "avatarUrl": "https://github.com/lucascriado.png",
+        "name": "lucas",
+        "role": "dev"
       },
       "content": [
         {
           "type": "paragraph",
-          "content": "LUCASCRIADO\n"
+          "content": "dev"
         }
       ],
-      "publishedAt": "2024-01-23T00:55:53.385Z"
+      "publishedAt": "2024-01-29T02:56:31.444Z",
+      "comments": [
+        {
+          "id": 1,
+          "postId": "069f",
+          "author": {
+            "name": "lucas",
+            "github": "https://github.com/lll.png"
+          },
+          "content": "kkkkkkkkkkkk",
+          "publishedAt": "2024-01-29T02:56:43.634Z"
+        }
+      ]
     },
     {
-      "id": "f77a",
+      "id": "c83d",
       "author": {
-        "avatarUrl": "https://github.com/diego3g.png",
-        "name": "",
-        "role": "CTO @Rocketseat"
+        "avatarUrl": "https://github.com/lucascriado.png",
+        "name": "lucas",
+        "role": "dev"
       },
       "content": [
         {
           "type": "paragraph",
-          "content": ""
+          "content": "dev"
         }
       ],
-      "publishedAt": "2024-01-26T00:35:00.702Z"
+      "publishedAt": "2024-01-29T02:57:33.608Z",
+      "comments": [
+        {
+          "id": 1,
+          "postId": "c83d",
+          "author": {
+            "name": "lll",
+            "github": "https://github.com/lll.png"
+          },
+          "content": "kkkkkkkkk",
+          "publishedAt": "2024-01-29T02:57:43.719Z"
+        }
+      ]
     },
     {
-      "id": "9aaa",
+      "id": "f4e1",
       "author": {
-        "avatarUrl": "https://github.com/diego3g.png",
-        "name": "",
-        "role": "CTO @Rocketseat"
+        "avatarUrl": "https://github.com/lucascriado.png",
+        "name": "lucas",
+        "role": "dev"
       },
       "content": [
         {
           "type": "paragraph",
-          "content": ""
+          "content": "kkkkkkkkkkk"
         }
       ],
-      "publishedAt": "2024-01-26T00:35:07.028Z"
-    },
-    {
-      "id": "67a2",
-      "author": {
-        "avatarUrl": "https://github.com/diego3g.png",
-        "name": "",
-        "role": "CTO @Rocketseat"
-      },
-      "content": [
+      "publishedAt": "2024-01-29T02:58:57.366Z",
+      "comments": [
         {
-          "type": "paragraph",
-          "content": ""
+          "id": 1,
+          "postId": "f4e1",
+          "author": {
+            "name": "LUCAS",
+            "github": "https://github.com/sss.png"
+          },
+          "content": "teste",
+          "publishedAt": "2024-01-29T02:59:09.197Z"
         }
-      ],
-      "publishedAt": "2024-01-26T00:35:11.148Z"
-    },
-    {
-      "id": "e4ea",
-      "author": {
-        "avatarUrl": "https://github.com/diego3g.png",
-        "name": "",
-        "role": "CTO @Rocketseat"
-      },
-      "content": [
-        {
-          "type": "paragraph",
-          "content": ""
-        }
-      ],
-      "publishedAt": "2024-01-26T00:35:11.816Z"
-    },
-    {
-      "id": "9a0d",
-      "author": {
-        "avatarUrl": "https://github.com/diego3g.png",
-        "name": "",
-        "role": "CTO @Rocketseat"
-      },
-      "content": [
-        {
-          "type": "paragraph",
-          "content": ""
-        }
-      ],
-      "publishedAt": "2024-01-26T00:35:12.010Z"
-    },
-    {
-      "id": "77cd",
-      "author": {
-        "avatarUrl": "https://github.com/diego3g.png",
-        "name": "",
-        "role": "CTO @Rocketseat"
-      },
-      "content": [
-        {
-          "type": "paragraph",
-          "content": ""
-        }
-      ],
-      "publishedAt": "2024-01-26T00:35:12.224Z"
-    },
-    {
-      "id": "a44b",
-      "author": {
-        "avatarUrl": "https://github.com/diego3g.png",
-        "name": "kalshdjhskjhj",
-        "role": "CTO @Rocketseat"
-      },
-      "content": [
-        {
-          "type": "paragraph",
-          "content": "jdkjadklJlad"
-        }
-      ],
-      "publishedAt": "2024-01-26T00:35:28.082Z"
-    },
-    {
-      "id": "36dc",
-      "author": {
-        "avatarUrl": "https://github.com/diego3g.png",
-        "name": "kalshdjhskjhj",
-        "role": "CTO @Rocketseat"
-      },
-      "content": [
-        {
-          "type": "paragraph",
-          "content": "jdkjadklJlad"
-        }
-      ],
-      "publishedAt": "2024-01-26T00:35:29.717Z"
-    },
-    {
-      "id": "7d89",
-      "author": {
-        "avatarUrl": "https://github.com/diego3g.png",
-        "name": "kalshdjhskjhj",
-        "role": "CTO @Rocketseat"
-      },
-      "content": [
-        {
-          "type": "paragraph",
-          "content": "jdkjadklJlad"
-        }
-      ],
-      "publishedAt": "2024-01-26T00:35:29.862Z"
+      ]
     }
   ]
 }

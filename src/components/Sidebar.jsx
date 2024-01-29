@@ -1,6 +1,6 @@
 import { Avatar } from './Avatar'
 import styles from './Sidebar.module.css'
-import { PencilLine } from 'phosphor-react'
+import { PencilLine, ChatCircleText, House } from 'phosphor-react'
 
 export function Sidebar() {
     return (
@@ -15,12 +15,19 @@ export function Sidebar() {
                 <span>Full-Stack Developer</span>
             </div>
 
-            <footer>
-                <a href="#">
-                    <PencilLine size={20}/>
-                    Editar seu perfil
+            <div className={styles.createPost}>
+                <a href="/create">
+                    <ChatCircleText size={20}/>
+                    Criar postagem
                 </a>
-            </footer>
-        </aside>
+            </div>
+
+            <div className={styles.homePost}>
+                <a href="/">
+                    <House size={20}/>
+                    Home
+                </a>
+            </div>
+        </aside>    
     )
 }

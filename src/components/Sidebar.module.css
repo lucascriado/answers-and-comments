@@ -61,3 +61,61 @@
     color: var(--white);
 
 }
+
+.sidebar .createPost {
+    border-top: 1px solid var(--gray-600);
+    margin-top: 1.5rem;
+    padding: 1.5rem 2rem 2rem;
+}
+
+.sidebar .createPost a {
+    background: transparent;
+    color: var(--green-500);
+    border: 1px solid var(--green-500);
+    border-radius: 8px;
+    height: 50px;
+    padding: 0 1.5rem;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 0.5rem;
+
+    transition: color 0.1s, background-color 0.1s;
+}
+
+.sidebar .createPost a:hover {
+    background: var(--green-500);
+    color: var(--white);
+}
+
+.sidebar .homePost {
+    padding: 0rem 2rem 2rem;
+}
+
+.sidebar .homePost a {
+    background: transparent;
+    color: var(--green-500);
+    border: 1px solid var(--green-500);
+    border-radius: 8px;
+    height: 50px;
+    padding: 0 1.5rem;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 0.5rem;
+
+    transition: color 0.1s, background-color 0.1s;
+}
+
+.sidebar .homePost a:hover {
+    background: var(--green-500);
+    color: var(--white);
+}
