@@ -12,7 +12,7 @@ export function App() {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:3001/posts')
+    fetch('http://localhost:3030/posts')
       .then(response => response.json())
       .then(data => setPosts(data));
   }, []);

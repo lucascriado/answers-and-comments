@@ -5,7 +5,7 @@ import { Avatar } from './Avatar';
 import styles from './Comment.module.css';
 
 export function Comment({ author, content, timestamp }) {
-    console.log(author)
+  console.log(author)
   const dateReal = new Date(timestamp).toLocaleString('pt-BR');
 
   return (

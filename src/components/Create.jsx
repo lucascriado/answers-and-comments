@@ -24,7 +24,7 @@ export function CreatePost() {
       comments: []
     };
 
-    fetch('http://localhost:3001/posts', {
+    fetch('http://localhost:3030/posts', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -58,7 +58,12 @@ export function CreatePost() {
         <ChatsCircle size={20} />
         <textarea type="text" value={content} placeholder='O que deseja publicar hoje?' onChange={e => setContent(e.target.value)} />
       </label>
-        <input type="submit" value="Submit" />
+      <label className={styles.inputGroup}>
+        <div style={{ opacity: 0 }}>
+            <ChatsCircle size={20} />
+          </div>
+          <input type="submit" value="Submit" />
+      </label>  
     </form>
   );
 }

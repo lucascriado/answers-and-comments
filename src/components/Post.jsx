@@ -16,7 +16,7 @@ export function Post({ author, publishedAt, content, postId }) {
 
   // Adicione este hook useEffect
   useEffect(() => {
-    fetch(`http://localhost:3001/posts/${postId}`)
+    fetch(`http://localhost:3030/posts/${postId}`)
       .then(response => response.json())
       .then(post => {
         setComments(post.comments || []);
@@ -40,11 +40,11 @@ export function Post({ author, publishedAt, content, postId }) {
       publishedAt: new Date().toISOString(),
     };
 
-    fetch(`http://localhost:3001/posts/${currentPostId}`)
+    fetch(`http://localhost:3030/posts/${currentPostId}`)
       .then(response => response.json())
       .then(post => {
         post.comments = Array.isArray(post.comments) ? [...post.comments, newComment] : [newComment];
-        return fetch(`http://localhost:3001/posts/${currentPostId}`, {
+        return fetch(`http://localhost:3030/posts/${currentPostId}`, {
           method: 'PUT',
           headers: {
             'Content-Type': 'application/json',
