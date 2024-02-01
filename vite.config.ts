@@ -10,6 +10,6 @@ export default defineConfig({
       key: fs.readFileSync('./privkey.pem'),
       cert: fs.readFileSync('./fullchain.pem'),
     },
-    port: 9191
+    port: 9090
   }
 })
