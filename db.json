@@ -1,69 +1,19 @@
 {
   "posts": [
     {
-      "id": "1",
-      "author": {
-        "avatarUrl": "https://github.com/diego3g.png",
-        "name": "Diego Fernandes",
-        "role": "CTO @Rocketseat"
-      },
-      "content": [
-        {
-          "type": "paragraph",
-          "content": "Fala galera 👋"
-        },
-        {
-          "type": "paragraph",
-          "content": "Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀"
-        },
-        {
-          "type": "link",
-          "content": "jane.design/doctorcare"
-        }
-      ],
-      "publishedAt": "2024-01-01T20:00:00.000Z",
       "comments": [
         {
-          "id": 1,
+          "id": 5,
           "postId": "1",
           "author": {
-            "name": "lucascriado",
-            "github": "https://github.com/lucascriado.png"
-          },
-          "content": "kkkkkkkkk",
-          "publishedAt": "2024-01-29T02:53:06.276Z"
-        },
-        {
-          "id": 2,
-          "postId": "1",
-          "author": {
-            "name": "sei la",
-            "github": "https://github.com/sss.png"
-          },
-          "content": "teste",
-          "publishedAt": "2024-01-30T11:15:54.490Z"
-        },
-        {
-          "id": 3,
-          "postId": "1",
-          "author": {
-            "name": "akjhdajdhsa",
+            "name": "lucas",
             "github": "https://github.com/github.png"
           },
-          "content": "ksjdlaksal",
-          "publishedAt": "2024-01-30T11:23:31.832Z"
-        },
-        {
-          "id": 4,
-          "postId": "1",
-          "author": {
-            "name": "sadas",
-            "github": "https://github.com/sadsa.png"
-          },
-          "content": "sada",
-          "publishedAt": "2024-02-02T00:27:44.797Z"
+          "content": "akdhajkd",
+          "publishedAt": "2024-02-03T02:07:04.259Z"
         }
-      ]
+      ],
+      "id": "1"
     },
     {
       "id": "c333",

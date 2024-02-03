@@ -12,7 +12,7 @@ export function App() {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    fetch('http://lucascriado.com:3030/posts')
+    fetch('https://lucascriado:3030/posts')
       .then(response => response.json())
       .then(data => setPosts(data));
   }, []);
