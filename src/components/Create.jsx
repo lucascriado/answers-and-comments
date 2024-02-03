@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 import styles from './Create.module.css';
 import { User, GithubLogo, Buildings, ChatsCircle } from 'phosphor-react';
+import { useHistory } from 'react-router-dom';
 
 export function CreatePost() {
   const [authorName, setAuthor] = useState('');
   const [authorLink, setLink] = useState('');
   const [authorRole, setRole] = useState('');
   const [content, setContent] = useState('');
+  const history = useHistory();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -32,8 +34,8 @@ export function CreatePost() {
       body: JSON.stringify(post),
     })
     .then(response => response.json())
-    .then(data => {
-      window.location.href = '/';
+    .then(() => {
+      history.push('/');
     })
     .catch((error) => {
       console.error('Error:', error);

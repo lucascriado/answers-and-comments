@@ -33,6 +33,26 @@
           },
           "content": "ads",
           "publishedAt": "2024-02-03T17:01:28.356Z"
+        },
+        {
+          "id": 3,
+          "postId": 1,
+          "author": {
+            "name": "ss",
+            "github": "https://github.com/ss.png"
+          },
+          "content": "ss",
+          "publishedAt": "2024-02-03T17:43:26.239Z"
+        },
+        {
+          "id": 4,
+          "postId": 1,
+          "author": {
+            "name": "kk",
+            "github": "https://github.com/kk.png"
+          },
+          "content": "kk",
+          "publishedAt": "2024-02-03T17:46:12.136Z"
         }
       ],
       "id": 1
@@ -60,9 +80,35 @@
           },
           "content": "klslkas",
           "publishedAt": "2024-02-03T17:01:56.968Z"
+        },
+        {
+          "id": 2,
+          "postId": 2,
+          "author": {
+            "name": "sdad",
+            "github": "https://github.com/asda.png"
+          },
+          "content": "sdad",
+          "publishedAt": "2024-02-03T18:05:43.478Z"
         }
       ],
       "id": 2
+    },
+    {
+      "author": {
+        "avatarUrl": "https://github.com/s.png",
+        "name": "s",
+        "role": "s"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "content": "s"
+        }
+      ],
+      "publishedAt": "2024-02-03T18:05:33.940Z",
+      "comments": [],
+      "id": 3
     }
   ]
 }

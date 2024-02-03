@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useHistory } from 'react-router-dom';
 import { format, formatDistanceToNow } from 'date-fns';
 import ptBR from 'date-fns/locale/pt-BR';
 import { Comment } from './Comment';
@@ -13,6 +14,7 @@ export function Post({ author, publishedAt, content, postId }) {
   const [commentContent, setCommentContent] = useState('');
   const [comments, setComments] = useState([]);
   const [currentPostId, setCurrentPostId] = useState(postId);
+  const history = useHistory();
 
   // Adicione este hook useEffect
   useEffect(() => {
@@ -59,9 +61,9 @@ export function Post({ author, publishedAt, content, postId }) {
         setCommentGithub('');
         setCommentContent('');
       })
-      .catch((error) => {
-        console.error('Erro ao enviar o comentário:', error);
-      });
+      .then(() => {
+        history.push('/');
+      })
   };
 
   const publishedDateFormatted = format(publishedAt, "d 'de' LLLL 'às' HH:mm'h'", { locale: ptBR });
