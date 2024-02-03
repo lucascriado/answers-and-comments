@@ -24,7 +24,7 @@ export function CreatePost() {
       comments: []
     };
 
-    fetch('https://lucascriado:3030/posts', {
+    fetch('https://lucascriado.com:3030/posts', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
