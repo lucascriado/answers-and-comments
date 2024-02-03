@@ -30,7 +30,7 @@ export function Post({ author, publishedAt, content, postId }) {
 
   const handleCommentSubmit = (e) => {
     e.preventDefault();
-
+  
     const newComment = {
       id: comments.length + 1,
       postId: currentPostId,
@@ -41,7 +41,7 @@ export function Post({ author, publishedAt, content, postId }) {
       content: commentContent,
       publishedAt: new Date().toISOString(),
     };
-
+  
     fetch(`https://lucascriado.com:3030/posts/${currentPostId}`)
       .then(response => response.json())
       .then(post => {
@@ -54,7 +54,13 @@ export function Post({ author, publishedAt, content, postId }) {
           body: JSON.stringify(post),
         });
       })
-      .then(response => response.json())
+      .then(response => {
+        if (!response.ok) {
+          console.error(`HTTP error! status: ${response.status}`);
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.json();
+      })
       .then(data => {
         setComments([...comments, newComment]);
         setCommentAuthor('');
@@ -62,9 +68,17 @@ export function Post({ author, publishedAt, content, postId }) {
         setCommentContent('');
       })
       .then(() => {
-        history.push('*');
+        history.push('/');
       })
-  };
+      .catch(error => {
+        console.error('Erro ao enviar o comentário:', error);
+        // Ignorar o erro e continuar o fluxo
+        setComments([...comments, newComment]);
+        setCommentAuthor('');
+        setCommentGithub('');
+        setCommentContent('');
+        history.push('/');
+      });
 
   const publishedDateFormatted = format(publishedAt, "d 'de' LLLL 'às' HH:mm'h'", { locale: ptBR });
   const publishedDate = formatDistanceToNow(publishedAt, { locale: ptBR, addSuffix: true });
@@ -144,4 +158,4 @@ export function Post({ author, publishedAt, content, postId }) {
       </div>
     </article>
   );
-}
+}}
