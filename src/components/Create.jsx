@@ -65,7 +65,7 @@ export function CreatePost() {
         <div style={{ opacity: 0 }}>
             <ChatsCircle size={20} />
           </div>
-          <input type="submit" value="Submit" />
+          <input type="submit" value="Publicar!" />
       </label>  
     </form>
   );
