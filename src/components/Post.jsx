@@ -62,7 +62,7 @@ export function Post({ author, publishedAt, content, postId }) {
         setCommentContent('');
       })
       .then(() => {
-        history.push('/');
+        history.push('*');
       })
   };
 

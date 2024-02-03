@@ -35,7 +35,7 @@ export function CreatePost() {
     })
     .then(response => response.json())
     .then(() => {
-      history.push('/');
+      history.push('*');
     })
     .catch((error) => {
       console.error('Error:', error);
