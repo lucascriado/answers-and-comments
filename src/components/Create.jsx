@@ -12,7 +12,7 @@ export function CreatePost() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-  
+
     const post = {
       author: {
         avatarUrl: 'https://github.com/' + authorLink + '.png',
@@ -25,7 +25,7 @@ export function CreatePost() {
       publishedAt: new Date().toISOString(),
       comments: []
     };
-  
+
     fetch('https://lucascriado.com:3030/posts', {
       method: 'POST',
       headers: {
@@ -33,20 +33,13 @@ export function CreatePost() {
       },
       body: JSON.stringify(post),
     })
-    .then(response => {
-      if (!response.ok) {
-        console.error(`HTTP error! status: ${response.status}`);
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
-      return response.json();
-    })
+    .then(response => response.json())
     .then(() => {
+      console.log('Post criado com sucesso!');
       history.push('/');
     })
     .catch((error) => {
       console.error('Error:', error);
-      // Ignorar o erro e continuar o fluxo
-      history.push('/');
     });
   };
 
