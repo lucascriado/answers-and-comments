@@ -40,7 +40,7 @@ export function Post({ author, publishedAt, content, postId }) {
       publishedAt: new Date().toISOString(),
     };
 
-    fetch(`https://lucascriado.com:3030/posts${currentPostId}`)
+    fetch(`https://lucascriado.com:3030/posts/${currentPostId}`)
       .then(response => response.json())
       .then(post => {
         post.comments = Array.isArray(post.comments) ? [...post.comments, newComment] : [newComment];
@@ -134,9 +134,11 @@ export function Post({ author, publishedAt, content, postId }) {
       </form>
 
       <div className={styles.commentList}>
-        {comments.map((comment) => (
-          <Comment key={comment.id} author={comment.author} content={comment.content} timestamp={comment.publishedAt} />
-        ))}
+        {comments.map((comment) => {
+          return (
+            <Comment key={comment.id} author={comment.author} content={comment.content} timestamp={comment.publishedAt} />
+          );
+        })}
       </div>
     </article>
   );
