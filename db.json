@@ -1,0 +1,20 @@
+{
+  "posts": [
+    {
+      "id": "c333",
+      "author": {
+        "avatarUrl": "https://github.com/kkk.png",
+        "name": "ksjkak",
+        "role": "jshdakjd"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "content": "kkkk"
+        }
+      ],
+      "publishedAt": "2024-02-02T00:31:34.473Z",
+      "comments": []
+    }
+  ]
+}
