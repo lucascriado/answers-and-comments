@@ -36,7 +36,7 @@ export function CreatePost() {
     .then(response => response.json())
     .then(() => {
       console.log('Post criado com sucesso!');
-      history.push('/');
+      window.location.href = '/';
     })
     .catch((error) => {
       console.error('Error:', error);

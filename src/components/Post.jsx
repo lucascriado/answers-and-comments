@@ -63,7 +63,7 @@ export function Post({ author, publishedAt, content, postId }) {
       })
       .then(() => {
         console.log('Comentário publicado com sucesso!')
-        history.push('/');
+        window.location.href = '/';
       })
       .catch((error) => {
         console.error('Erro ao publicar o comentário:', error);
