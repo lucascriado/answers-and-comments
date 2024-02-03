@@ -16,7 +16,7 @@ export function Post({ author, publishedAt, content, postId }) {
 
   // Adicione este hook useEffect
   useEffect(() => {
-    fetch(`https://localhost:3030/posts/${postId}`)
+    fetch(`https://lucascriado.com:3030/posts/${postId}`)
       .then(response => response.json())
       .then(post => {
         setComments(post.comments || []);
@@ -40,11 +40,11 @@ export function Post({ author, publishedAt, content, postId }) {
       publishedAt: new Date().toISOString(),
     };
 
-    fetch(`https://localhost:3030/posts${currentPostId}`)
+    fetch(`https://lucascriado.com:3030/posts${currentPostId}`)
       .then(response => response.json())
       .then(post => {
         post.comments = Array.isArray(post.comments) ? [...post.comments, newComment] : [newComment];
-        return fetch(`https://localhost:3030/posts/${currentPostId}`, {
+        return fetch(`https://lucascriado.com:3030/posts/${currentPostId}`, {
           method: 'PUT',
           headers: {
             'Content-Type': 'application/json',
