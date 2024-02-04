@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "author": {
+        "avatarUrl": "https://github.com/lucascriado.png",
+        "name": "Lucas de Oliveira Criado",
+        "role": "Dev"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "content": "Seja bem-vindo!"
+        }
+      ],
+      "publishedAt": "2024-02-04T23:10:11.319Z",
+      "comments": [
+        {
+          "id": 1,
+          "postId": 1,
+          "author": {
+            "name": "Server",
+            "github": "https://github.com/github.png"
+          },
+          "content": "server is running!",
+          "publishedAt": "2024-02-04T23:10:31.547Z"
+        }
+      ],
+      "id": 1
+    }
+  ]
+}
