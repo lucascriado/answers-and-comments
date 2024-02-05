@@ -8,6 +8,8 @@ import jsonServer from 'json-server';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
+// Configurações para o servidor HTTPS, adicionar as chaves privadas e o certificado
+
 const options = {
   key: fs.readFileSync('./privkey.pem'),
   cert: fs.readFileSync('./fullchain.pem')
@@ -22,7 +24,7 @@ server.use(router);
 
 const app = express();
 
-// Serve os arquivos estáticos do React
+// Serve os arquivos estáticos do React, realizar o build do projeto antes de rodar o servidor
 app.use(express.static(path.join(__dirname, 'dist')));
 
 app.get('*', (req, res) => {
