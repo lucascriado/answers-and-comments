@@ -11,8 +11,8 @@ const __dirname = dirname(__filename);
 // Configurações para o servidor HTTPS, adicionar as chaves privadas e o certificado
 
 const options = {
-  key: fs.readFileSync('./privkey.pem'),
-  cert: fs.readFileSync('./fullchain.pem')
+  key: fs.readFileSync('/etc/letsencrypt/archive/lucascriado.com/privkey2.pem'),
+  cert: fs.readFileSync('/etc/letsencrypt/archive/lucascriado.com/fullchain2.pem')
 };
 
 const server = jsonServer.create();
