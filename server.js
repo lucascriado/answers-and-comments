@@ -31,7 +31,7 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'dist', 'index.html'));
 });
 
-const jsonServerPort = 3030;
+const jsonServerPort = 9003;
 const appPort = 9002;
 
 https.createServer(options, server).listen(jsonServerPort, () => {

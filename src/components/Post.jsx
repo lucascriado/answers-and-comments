@@ -18,7 +18,7 @@ export function Post({ author, publishedAt, content, postId }) {
 
   // Adicione este hook useEffect
   useEffect(() => {
-    fetch(`https://lucascriado.com:3030/posts/${postId}`)
+    fetch(`https://lucascriado.com:9003/posts/${postId}`)
       .then(response => response.json())
       .then(post => {
         setComments(post.comments || []);
