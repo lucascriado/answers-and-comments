@@ -32,7 +32,7 @@ app.get('*', (req, res) => {
 });
 
 const jsonServerPort = 3030;
-const appPort = 9001;
+const appPort = 9002;
 
 https.createServer(options, server).listen(jsonServerPort, () => {
   console.log(`JSON Server is running at https://localhost:${jsonServerPort}`);
