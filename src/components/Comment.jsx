@@ -18,20 +18,12 @@ export function Comment({ author, content, timestamp }) {
               <strong>{author.name}</strong>
               <time title={dateReal}>{/* Exibir a diferença de tempo aqui */}</time>
             </div>
-
-            <button title="Deletar Comentário">
-              <Trash size={24} />
-            </button>
           </header>
 
           <p>{content}</p>
         </div>
 
         <footer>
-          <button>
-            <ThumbsUp />
-            Aplaudir <span>20</span>
-          </button>
         </footer>
       </div>
     </div>

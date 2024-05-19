@@ -4,6 +4,7 @@
     justify-content: center;
     padding: 1.25rem 0;
     gap: 1rem;
+    align-items: center;
 }
 
 .header img {
@@ -11,7 +12,17 @@
 }
 
 .title {
-    color: var(--gray-100);
-    font-size: 1.5991rem;
+    color: var(--gray-300);
+    font-size: 1rem;
     line-height: 1.6;
+    font-weight: bold;
+}
+
+.title a {
+    text-decoration: none;
+    color: inherit; /* Para garantir que o link herda a cor do pai */
+}
+
+.logo {
+    margin-bottom: 5px;
 }

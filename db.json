@@ -23,9 +23,35 @@
           },
           "content": "server is running!",
           "publishedAt": "2024-02-04T23:10:31.547Z"
+        },
+        {
+          "id": 2,
+          "postId": 1,
+          "author": {
+            "name": "aopa",
+            "github": "https://github.com/github.png"
+          },
+          "content": "opa",
+          "publishedAt": "2024-05-19T02:27:37.388Z"
         }
       ],
       "id": 1
+    },
+    {
+      "author": {
+        "avatarUrl": "https://github.com/joao.png",
+        "name": "joao",
+        "role": "joao"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "content": "joao"
+        }
+      ],
+      "publishedAt": "2024-05-19T02:27:51.584Z",
+      "comments": [],
+      "id": 2
     }
   ]
 }
